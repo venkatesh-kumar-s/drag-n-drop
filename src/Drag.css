@@ -1,0 +1,12 @@
+.drag{
+    float:left;
+    width: 20vw;
+    height: 80vh;
+    border: 2px dotted;
+}
+.drag img{
+    margin: 5px auto;
+    object-fit: contain;
+    display: flex;
+    width: 6rem;
+}

@@ -1,0 +1,15 @@
+
+#div2,#div3{
+    float:right;
+    width: 30vw;
+    height: 80vh;
+    border: 2px dotted;
+    margin: 0rem 1rem;
+}
+.drop img{
+    margin: 5px auto;
+    object-fit: contain;
+    position: relative;
+    display: grid;
+    width: 6rem;
+}
