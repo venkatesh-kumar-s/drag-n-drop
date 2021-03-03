@@ -1,10 +1,12 @@
 
-#div2,#div3{
+#div2,#div3,#div4{
     float:right;
-    width: 30vw;
+    width: 20vw;
     height: 80vh;
     border: 2px dotted;
     margin: 0rem 1rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 .drop img{
     margin: 5px auto;

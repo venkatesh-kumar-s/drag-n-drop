@@ -1,15 +1,14 @@
 import './App.css';
 import Drag from './Drag';
 import Drop from './Drop';
-import { useSelector, useDispatch } from 'react-redux'
 
 function App() {
-  const item = useSelector(state=>state);
-  const dispatch = useDispatch();
 
   return (
     <div className="App" >
-      <p>{item}</p>
+      <div style={{backgroundColor:'yellow'}}>
+        <h1>Drag n Drop using React Hooks and Redux</h1>
+      </div>
      <Drag/>
      <Drop/>
     </div>

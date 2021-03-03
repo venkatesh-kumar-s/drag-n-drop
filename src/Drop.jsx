@@ -13,6 +13,10 @@ function Drop() {
             <div id='div3' 
             onDrop={(event)=>dispatch({type:'ONDROP',payload:event})} 
             onDragOver={(event)=>dispatch({type:'ALLOWDROP',payload:event})}></div>
+
+            <div id='div4' 
+            onDrop={(event)=>dispatch({type:'ONDROP',payload:event})} 
+            onDragOver={(event)=>dispatch({type:'ALLOWDROP',payload:event})}></div>
         </div>
     )
 }

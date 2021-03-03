@@ -3,10 +3,18 @@
     width: 20vw;
     height: 80vh;
     border: 2px dotted;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 .drag img{
     margin: 5px auto;
     object-fit: contain;
     display: flex;
     width: 6rem;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: gray;
+    border-radius: 10px;
 }
